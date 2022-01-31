@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 //console.log(req);
 //res.send('hällo ägän (not)')
 axios
-  .get(pokeapi + 'pokemon/ditto')
+  .get(pokeapi + 'pokemon/zekrom')
   .then(response =>{
      res.send
      ('<img src= " ' +
